@@ -1,8 +1,8 @@
 baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Personal website of Emily Cooper"
-author = "Emily Cooper"
+title = "Personal website of Benjamin Rohr"
+author = "Benjamin Rohr"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = ""
@@ -28,9 +28,8 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "RStudio"
-  orgLocal = "Anywhere"
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  orgName = "Benjamin Rohr"
+  orgLocal = ""
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
   mainSections = ["blog", "project", "talk"]
@@ -48,7 +47,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "violet"
+  theme = "plum"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -61,7 +60,7 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Alegreya Sans / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Commissioner"
+  customtextFontFamily = "Alegreya Sans"
   customheadingFontFamily = "Fraunces"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
@@ -76,11 +75,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
-  [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
+      url       = "https://github.com/BenjaRoh"
   [[params.social]]
       icon      = "instagram" # icon name without the 'fa-'
       icon_pack = "fab"
@@ -101,17 +96,17 @@ enableEmoji = true
 
 [menu]
   [[menu.header]]
-    name = "About"
+    name = "Home"
     title = "About Blogophonic"
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "Blog"
+    name = "I hate blogs"
     title = "Blog"
     url = "/blog/"
     weight = 2
   [[menu.header]]
-    name = "Projects"
+    name = "Research"
     title = "Project Portfolio"
     url = "/project/"
     weight = 3
@@ -127,11 +122,11 @@ enableEmoji = true
     title = "License"
     url = "/license/"
     weight = 1
-  [[menu.footer]]
-    name = "Contact"
-    title = "Contact form"
-    url = "/contact/"
-    weight = 2
+#  [[menu.footer]]
+#    name = "Contact"
+#    title = "Contact form"
+#    url = "/contact/"
+#    weight = 2
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
