@@ -1,5 +1,5 @@
 ---
-title: Title
+title: Teaching
 show_title_as_headline: true
 description: bla bla
 draft: false

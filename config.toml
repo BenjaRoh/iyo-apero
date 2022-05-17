@@ -61,11 +61,11 @@ enableEmoji = true
   # sans-serif options: Commissioner / Alegreya Sans / Metropolis
   # if you import your own fonts, name them here too
   customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Fraunces"
+  customheadingFontFamily = "Commissioner"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
-  textFontFamily = "sans-serif"
-  headingFontFamily = "sans-serif"
+#  textFontFamily = "sans-serif"
+#  headingFontFamily = "sans-serif"
   
   # Social icons may appear on homepage and in site header or footer
   # Configure show/hide above - add as many as you like below
@@ -103,30 +103,30 @@ enableEmoji = true
   [[menu.header]]
     name = "Research"
     title = "Research"
-    url = "/newpage/"
+    url = "/research/"
     weight = 2
   [[menu.header]]
     name = "Teaching"
     title = "Teaching"
-    url = "/project/"
+    url = "/teaching/"
     weight = 3
   [[menu.header]]
     name = "C.V."
-    title = "CV"
-    url = "/talk/"
+    title = "C.V."
+    url = "/cv/"
     weight = 4
   [[menu.header]]
     name = "Contact"
     title = "Contact"
-    url = "/newpage/"
-    weight = 4
+    url = "/contact/"
+    weight = 5
     
   # Configure footer  
-  [[menu.footer]]
-    name = "License"
-    title = "License"
-    url = "/license/"
-    weight = 1
+#  [[menu.footer]]
+#    name = "License"
+#    title = "License"
+#    url = "/license/"
+#    weight = 1
 #  [[menu.footer]]
 #    name = "Contact"
 #    title = "Contact form"
