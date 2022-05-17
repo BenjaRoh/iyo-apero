@@ -37,7 +37,7 @@ enableEmoji = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
   socialInHeader = false
-  socialInFooter = true
+  socialInFooter = false
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
@@ -47,7 +47,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "plum"
+  theme = "grayscale"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -97,23 +97,28 @@ enableEmoji = true
 [menu]
   [[menu.header]]
     name = "Home"
-    title = "About Blogophonic"
-    url = "/about/"
+    title = "Home"
+    url = "/"
     weight = 1
   [[menu.header]]
-    name = "I hate blogs"
-    title = "Blog"
-    url = "/blog/"
+    name = "Research"
+    title = "Research"
+    url = "/newpage/"
     weight = 2
   [[menu.header]]
-    name = "Research"
-    title = "Project Portfolio"
+    name = "Teaching"
+    title = "Teaching"
     url = "/project/"
     weight = 3
   [[menu.header]]
-    name = "Talks"
-    title = "Talks"
+    name = "C.V."
+    title = "CV"
     url = "/talk/"
+    weight = 4
+  [[menu.header]]
+    name = "Contact"
+    title = "Contact"
+    url = "/newpage/"
     weight = 4
     
   # Configure footer  
